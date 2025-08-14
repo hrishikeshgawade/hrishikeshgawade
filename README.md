@@ -1,15 +1,42 @@
-<h1 align="center">Hi 👋, I'm Hrishikesh Gawade</h1>
-<h3 align="center">A Learning coder and developer from India. I am currently studying Mechatronics at MIT, Manipal.</h3>
+<h1 align="center">Hi there 👋, I'm Hrishikesh Gawade</h1>
+<h3 align="center">Software Design Engineer @ Schneider Electric | Mechatronics Engineer | AI/ML & Automation Specialist</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=hrishikeshgawade&label=Profile%20views&color=0e75b6&style=flat" alt="hrishikeshgawade" /> </p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=hrishikeshgawade&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=hrishikeshgawade&theme=gruvbox" alt="Trophies" />
+  </a>
+</p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hrishikeshgawade" alt="hrishikeshgawade" /></a> </p>
+---
 
-- 🌱 I’m currently learning **Mechatronics**
+🚀 **About Me**  
+I am a **Mechatronics Engineer** from MIT Manipal and a **Software Design Engineer** at Schneider Electric, specializing in **AI/ML** and **industrial automation**. My work bridges advanced AI solutions with automation systems, delivering smarter, more efficient, and scalable technologies.  
 
-- 📫 How to reach me **hrishikeshgawade23@gmail.com**
+💡 **What I Do**
+- Develop **Generative AI products** for industrial automation.  
+- Build **EAE automation libraries** and design IEC 61499-based solutions.  
+- Create AI systems to **auto-generate PLC IEC 61499 code**, reducing development time drastically.  
+- Automate workflows to **boost team productivity** and streamline collaboration.  
 
-- ⚡ Fun fact **I am very curious person and I am good at Managing projects.**
+🎯 **Key Achievements**
+- 📈 Increased code conversion accuracy by **25%** using AI to transform IEC 61131 to IEC 61499 function blocks.  
+- 🤖 Enhanced robotic welding processes, achieving **20% higher efficiency**.  
+- 🛡️ Delivered **97.2% accuracy** in IoT intrusion detection through feature engineering and ML.  
+
+---
+
+📚 **Current Focus**
+- Generative AI for automation systems  
+- Edge AI & embedded ML  
+- AI-driven IoT cybersecurity  
+
+📫 **Reach Me At**  
+**Email:** hrishikeshgawade23@gmail.com 
+
+⚡ **Fun Fact**  
+I’m endlessly curious and love turning complex problems into elegant solutions.  
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
