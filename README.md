@@ -1,5 +1,5 @@
 <h1 align="center">Hi there 👋, I'm Hrishikesh Gawade</h1>
-<h3 align="center">Software Design Engineer @ Schneider Electric | Mechatronics Engineer | AI/ML & Automation Specialist</h3>
+<h3 align="center">Software Design Engineer @ Schneider Electric | AI/ML & Industrial Automation Specialist | Mechatronics Engineer</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=hrishikeshgawade&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
@@ -11,31 +11,34 @@
 ---
 
 🚀 **About Me**  
-I am a **Mechatronics Engineer** from MIT Manipal and a **Software Design Engineer** at Schneider Electric, specializing in **AI/ML** and **industrial automation**. My work bridges advanced AI solutions with automation systems, delivering smarter, more efficient, and scalable technologies.  
+Currently working as a **Software Design Engineer** at Schneider Electric, I specialize in **Generative AI** and **industrial automation**. My role involves designing **EAE automation libraries**, building AI systems that **auto-generate PLC IEC 61499 code**, and developing software solutions to **automate repetitive tasks**—saving time, reducing errors, and improving team efficiency.  
 
 💡 **What I Do**
-- Develop **Generative AI products** for industrial automation.  
-- Build **EAE automation libraries** and design IEC 61499-based solutions.  
-- Create AI systems to **auto-generate PLC IEC 61499 code**, reducing development time drastically.  
-- Automate workflows to **boost team productivity** and streamline collaboration.  
+- Create **Generative AI products** to accelerate industrial automation development.  
+- Design and implement **IEC 61499-based automation libraries**.  
+- Innovate AI-driven PLC code generation for faster, more accurate programming.  
+- Build tools to streamline workflows, project management, and collaboration.  
 
 🎯 **Key Achievements**
-- 📈 Increased code conversion accuracy by **25%** using AI to transform IEC 61131 to IEC 61499 function blocks.  
-- 🤖 Enhanced robotic welding processes, achieving **20% higher efficiency**.  
-- 🛡️ Delivered **97.2% accuracy** in IoT intrusion detection through feature engineering and ML.  
+- 📈 Boosted code conversion accuracy by **25%** with AI-powered IEC 61131 → IEC 61499 transformation.  
+- 🤖 Improved robotic welding productivity by **20%** through optimized programming.  
+- 🛡️ Achieved **97.2% accuracy** in IoT intrusion detection via ML and feature engineering.  
 
 ---
 
+🎓 **Background**  
+- **B.Tech in Mechatronics Engineering** – MIT Manipal (Minor in IIoT, specialization in Machine Learning, Data Analytics, Cybersecurity, and Python).  
+
 📚 **Current Focus**
-- Generative AI for automation systems  
-- Edge AI & embedded ML  
+- Generative AI for automation  
+- Edge AI & embedded ML systems  
 - AI-driven IoT cybersecurity  
 
 📫 **Reach Me At**  
 **Email:** hrishikeshgawade23@gmail.com 
 
 ⚡ **Fun Fact**  
-I’m endlessly curious and love turning complex problems into elegant solutions.  
+Curiosity drives my work—I thrive on turning complex engineering challenges into elegant, scalable solutions.   
 
 
 <h3 align="left">Connect with me:</h3>
