@@ -16,7 +16,7 @@ Previously, I worked at **Schneider Electric**, progressing from R&D Intern to S
 
 **I'm interested in robotics software engineering, autonomy, perception, and embedded systems opportunities.**
 
-## Featured Project Experience
+## Featured Robotics Projects
 
 ### Autonomous Mobile Robot Navigation & SLAM
 **C++17 · ROS 2 · Nav2 · Gazebo · Eigen**
@@ -25,24 +25,24 @@ Previously, I worked at **Schneider Electric**, progressing from R&D Intern to S
 - Tuned global/local planners and dynamic costmaps for obstacle avoidance at **20 Hz in simulation**.
 - Optimized tf2 transform lookups and execution threads, reducing localization latency by **35%** during continuous path tracking.
 
-### ROS 2-to-PLC Telemetry Bridge
-**C++ · Python · ROS 2 · OPC UA · MQTT · Linux**
+### [Autonomous Vehicle Control & Trajectory Tracking](https://github.com/hrishikeshgawade/autonomous-vehicle-safe-control)
+**Python · NumPy · CVXPY · Optimization-Based Control**
 
-- Built a multithreaded middleware gateway connecting ROS 2 topics/actions to PLC runtimes through OPC UA and MQTT.
-- Implemented asynchronous queues and watchdog safety monitors for interlock transmission.
+- Implemented simulation-based adaptive cruise control using Control Lyapunov Functions, Control Barrier Functions, and quadratic programming.
+- Implemented time-varying LQR and constrained MPC for trajectory tracking with steering and acceleration limits.
+- Organized controllers, simulation notebooks, automated verification tests, and a GitHub Actions workflow.
+
+### [Attitude Estimation & Kalman Filtering](https://github.com/hrishikeshgawade/APKF)
+**Python · NumPy · SciPy · State Estimation**
+
+- Explored quaternion-based attitude dynamics and Kalman filtering through spacecraft simulations with noisy measurements.
+- Included simulated star-tracker observations, covariance propagation, and attitude-error plots.
 
 ### Edge AI Acoustic Classifier on STM32
 **C/C++ · FreeRTOS · STM32 · STM32Cube.AI · DMA**
 
 - Developed firmware for an ARM Cortex-M4 with circular DMA buffers for zero-copy acoustic sampling.
 - Deployed a quantized CNN achieving **96.42% accuracy** with **under 18 ms inference latency**.
-
-## Explore My Public Code
-
-| Repository | Focus |
-| :--- | :--- |
-| [Autonomous Vehicle Safe Control](https://github.com/hrishikeshgawade/autonomous-vehicle-safe-control) | Simulation-based adaptive cruise control using CLF-CBF quadratic programming; trajectory tracking with time-varying LQR and constrained MPC. |
-| [Attitude Estimation & Kalman Filtering](https://github.com/hrishikeshgawade/APKF) | Exploratory Python simulations of quaternion-based attitude dynamics and estimation with noisy measurements. |
 
 ## Professional Experience
 
