@@ -1,73 +1,103 @@
 <h1 align="center">Hrishikesh Gawade</h1>
-<p align="center"><strong>Robotics Software · Autonomous Systems · Applied AI</strong></p>
-<p align="center">M.S. Robotics, University of Michigan · Former Software Design Engineer, Schneider Electric</p>
+<p align="center"><strong>Robotics Software · Autonomous Systems · Embedded AI</strong></p>
+<p align="center">M.S. Robotics, University of Michigan | Former Software Design Engineer, Schneider Electric</p>
 <p align="center">
-  <a href="https://linkedin.com/in/hrishikesh-gawade-b69755203">LinkedIn</a> ·
+  <a href="https://github.com/hrishikeshgawade">GitHub</a> ·
+  <a href="https://linkedin.com/in/hrishikesh-gawade">LinkedIn</a> ·
   <a href="mailto:hrishikeshgawade23@gmail.com">Email</a> ·
   Ann Arbor, Michigan
 </p>
 
 ---
 
-I'm a Robotics master's student at the University of Michigan with a background in software development, machine learning, and embedded systems. My interests span robot autonomy, perception, state estimation, planning, and control.
+I'm pursuing an **M.S. in Robotics at the University of Michigan**, with an expected graduation in **May 2028**. My work spans robotics software, navigation, state estimation, computer vision, and embedded AI.
 
-Previously, I worked at Schneider Electric on AI-assisted code translation and software libraries for industrial control systems. I'm now building on that experience through robotics projects and graduate coursework.
+Previously, I worked at **Schneider Electric**, progressing from R&D Intern to Software Design Engineer. I developed control libraries, automated engineering tools, and an AI-assisted framework for translating industrial control programs.
 
-**I'm interested in robotics software engineering, autonomy, embedded AI, and related internship and engineering opportunities.**
+**I'm interested in robotics software engineering, autonomy, perception, and embedded systems opportunities.**
 
-## Selected Public Projects
+## Featured Project Experience
 
-### [Autonomous Vehicle Control & Trajectory Tracking](https://github.com/hrishikeshgawade/autonomous-vehicle-safe-control)
-Graduate coursework implementations exploring vehicle control through simulation.
+### Autonomous Mobile Robot Navigation & SLAM
+**C++17 · ROS 2 · Nav2 · Gazebo · Eigen**
 
-- Formulates adaptive cruise control using Control Lyapunov Functions, Control Barrier Functions, and quadratic programming.
-- Implements time-varying LQR and constrained MPC for trajectory tracking with steering and acceleration limits.
-- Includes simulation notebooks, automated verification tests, and a GitHub Actions workflow.
+- Built a ROS 2 Humble autonomy pipeline for differential-drive robots, combining 2D LiDAR SLAM, wheel odometry, and EKF state estimation.
+- Tuned global/local planners and dynamic costmaps for obstacle avoidance at **20 Hz in simulation**.
+- Optimized tf2 transform lookups and execution threads, reducing localization latency by **35%** during continuous path tracking.
 
-**Tools:** Python · NumPy · CVXPY · pytest
+### ROS 2-to-PLC Telemetry Bridge
+**C++ · Python · ROS 2 · OPC UA · MQTT · Linux**
 
-### [Attitude Estimation & Kalman Filtering](https://github.com/hrishikeshgawade/APKF)
-Exploratory Python simulations and notes on spacecraft attitude and parameter estimation.
+- Built a multithreaded middleware gateway connecting ROS 2 topics/actions to PLC runtimes through OPC UA and MQTT.
+- Implemented asynchronous queues and watchdog safety monitors for interlock transmission.
 
-- Explores quaternion-based attitude dynamics and Kalman filtering with noisy measurements.
-- Includes simulated star-tracker observations, covariance propagation, and attitude-error plots.
+### Edge AI Acoustic Classifier on STM32
+**C/C++ · FreeRTOS · STM32 · STM32Cube.AI · DMA**
 
-**Tools:** Python · NumPy · SciPy · Matplotlib
+- Developed firmware for an ARM Cortex-M4 with circular DMA buffers for zero-copy acoustic sampling.
+- Deployed a quantized CNN achieving **96.42% accuracy** with **under 18 ms inference latency**.
 
-## Engineering Experience
+## Explore My Public Code
 
-**Schneider Electric — Software Design Engineer**  
-September 2024 – July 2026 · Previously R&D Intern, 2024
+| Repository | Focus |
+| :--- | :--- |
+| [Autonomous Vehicle Safe Control](https://github.com/hrishikeshgawade/autonomous-vehicle-safe-control) | Simulation-based adaptive cruise control using CLF-CBF quadratic programming; trajectory tracking with time-varying LQR and constrained MPC. |
+| [Attitude Estimation & Kalman Filtering](https://github.com/hrishikeshgawade/APKF) | Exploratory Python simulations of quaternion-based attitude dynamics and estimation with noisy measurements. |
 
-- Developed AI-assisted tooling for translating IEC 61131-3 control programs into IEC 61499 event-driven applications.
-- Built automation libraries for EcoStruxure Automation Expert, including function blocks, alarms, and HMI components.
-- Worked with Python, C++, C#, and Structured Text across development and automation tooling.
+## Professional Experience
 
-**Additional project experience**
+### Schneider Electric
+**Software Design Engineer · Previously R&D Intern**  
+January 2024 – July 2026, including internship
 
-- **Robot navigation:** ROS 2 navigation and SLAM workflows.
-- **Embedded AI:** STM32-based real-time acoustic recognition.
-- **Computer vision:** Object detection, tracking, and dataset preparation during an ML internship.
+- Developed modular automation libraries in **C# and Structured Text** for EcoStruxure Automation Expert.
+- Built **Python/Bash CI/CD and static-analysis tools**, reducing regression test time by **60%**.
+- Developed an AI-assisted translation engine using fine-tuned models and AST parsing to convert **IEC 61131 logic to IEC 61499**, improving migration accuracy by **25%**.
+- Nominated for the **Most Innovative Individual Award** within the Global EAE Team.
+
+### PYI Technologies
+**Machine Learning Intern · June 2023 – August 2023**
+
+- Built an aerial object-tracking pipeline using **OpenCV, PyTorch, and DeepSORT**.
+- Optimized on-device inference with **TensorRT**, achieving **30+ FPS**, a **40% speed improvement**.
+
+### Faith Automation
+**Robotics Intern · December 2022 – January 2023**
+
+- Programmed multi-axis robotic welding manipulators and optimized motion-path interpolation, improving cell cycle efficiency by **20%**.
 
 ## Technical Skills
 
-| Area | Languages, tools, and methods |
+| Area | Technologies |
 | :--- | :--- |
-| Programming | Python, C++, C, C#, MATLAB, SQL |
-| Robotics & control | ROS / ROS 2, SLAM, state estimation, LQR, MPC, trajectory tracking |
-| AI & perception | PyTorch, TensorFlow, OpenCV, scikit-learn, XGBoost |
-| Embedded & connected systems | STM32, ESP8266, MQTT, OPC UA |
-| Engineering tools | Git, Bash, CI/CD, NumPy, SciPy, CVXPY |
+| Languages | C++17, Python, C, C#, Structured Text, SQL, Bash, MATLAB |
+| Robotics & middleware | ROS / ROS 2, Nav2, tf2, Gazebo, RViz, MoveIt, SLAM, EKF, motion planning |
+| Perception & control | OpenCV, PCL, PyTorch, TensorRT, PID, MPC, trajectory optimization |
+| Embedded & systems | STM32, FreeRTOS, CAN, UART, SPI, I2C, MQTT, OPC UA, IEC 61499 |
+| Development tools | Linux, Docker, Git, CMake |
 
 ## Education
 
-**University of Michigan, Ann Arbor**  
-M.S. in Robotics · Fall 2026 – Present
+**University of Michigan — Ann Arbor**  
+M.S. in Robotics · Expected May 2028  
+Coursework: Autonomous Robotics, Robot Kinematics & Dynamics, Computer Vision, Advanced Control Systems.
 
-**Manipal Institute of Technology, MAHE**  
-B.Tech in Mechatronics · 2020 – 2024  
-Minor in Industrial IoT
+**Manipal Institute of Technology**  
+B.Tech in Mechatronics · August 2020 – June 2024  
+Minor: Industrial IoT
+
+## Publications & Invention
+
+- **Patent filing in progress:** AI-Enabled Automated Translation Framework for IEC 61131 to IEC 61499 — Schneider Electric R&D.
+- **Manuscript under review:** An Ensemble Learning Framework for Intrusion Detection in IoT Networks.
+- **IEEE NMITCON 2023:** Fast and Secure Colour Image Encryption Using 1D Chaotic Maps. [DOI](https://doi.org/10.1109/NMITCON58196.2023.10276056)
+
+## Leadership
+
+**Vice-President & Technical Lead, IE-Mechatronics · 2022 – 2024**
+
+Directed a **200+ member** engineering chapter, organized the national-level **Robo Wars** competition, and conducted workshops on ROS, embedded systems, and robotics hardware.
 
 ---
 
-Interested in collaborating or discussing a role? Reach me at [hrishikeshgawade23@gmail.com](mailto:hrishikeshgawade23@gmail.com) or connect on [LinkedIn](https://linkedin.com/in/hrishikesh-gawade-b69755203).
+Reach me at **[hrishikeshgawade23@gmail.com](mailto:hrishikeshgawade23@gmail.com)** or connect on **[LinkedIn](https://linkedin.com/in/hrishikesh-gawade)**.
